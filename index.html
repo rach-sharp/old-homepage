@@ -1,0 +1,48 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+    {% for post in paginator.posts %}
+        <div class="post">
+            <h1 class="post-title">
+                <a href="{{ post.url }}">
+                {{ post.title }}
+                </a>
+            </h1>
+            <span class="post-date">
+                {{ post.date | date_to_string }}
+            </span>
+            {% for category in post.categories %}
+              <span class="post-categories">
+                  <a href="{{ site.baseurl }}reading-lists/{{ category }}">
+                      {{ category | capitalize }}
+                  </a>
+              </span>
+            {% endfor %}
+            {{ post.content }}
+        </div>
+    {% endfor %}
+</div>
+
+<div class="pagination">
+    <span class="pagination-item newer">
+        {% if paginator.previous_page %}
+            <i class="fa fa-chevron-left fa-fw" aria-hidden="true"></i>
+            <a href="{{paginator.previous_page_path}}">Newer</a>
+        {% else %}
+            Nothing Newer
+            <i class="fa fa-frown-o fa-fw" aria-hidden="true"></i>
+        {% endif %}
+    </span>
+    <p class="pagination-item page_no"> Page {{ paginator.page }} of {{ paginator.total_pages }} </p>
+    {% if paginator.next_page %}
+        <span class="pagination-item older">
+              <a href="{{paginator.next_page_path}}">Older</a>
+              <i class="fa fa-chevron-right fa-fw" aria-hidden="true"></i>
+        </span>
+    {% else %}
+        <p> Ancient History! </p>
+    {% endif %}
+</div>

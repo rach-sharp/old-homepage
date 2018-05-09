@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      rouge
+plugins:	  [jekyll-paginate, jekyll-gist]
+
+# Permalinks
+permalink:        /:title/
+
+# Setup
+title:            R#
+tagline:          'import coffee'
+description:      'opinions & side projects'
+url:              https://www.rachsharp.co.uk
+baseurl:          /
+
+author:
+  name:           'Rachel Sharp'
+  url:            https://www.rachsharp.co.uk/author
+
+excerpt_separator: ""
+
+paginate:         5
+
+# Custom vars
+#version:          2.1.0
+enabled_reading_lists: [webmethods, python]
+
+github:
+  repo:           https://github.com/poole/hyde

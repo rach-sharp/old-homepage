@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<div class="reading-list-grid">
+    {% for category in site.categories %}
+        {% if site.enabled_reading_lists contains category[0] %}
+            <div class="reading-list-item">
+                <a class="rl-text" href="{{ site.baseurl }}reading-lists/{{ category[0] }}">
+                <h3>{{ category[0] | capitalize }}</h3>
+                <div>
+                    <img class="reading-list-image" src="{{ site.baseurl }}public/images/{{ category[0] }}.png " height=100 width=100/>
+                </div>
+                <h4>{{ category[1].size }} posts</h4>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
