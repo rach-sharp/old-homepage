@@ -8,6 +8,7 @@ permalink:        /:title/
 
 # Setup
 title:            R#
+host:		  0.0.0.0
 tagline:          'import coffee'
 description:      'opinions & side projects'
 url:              https://www.rachsharp.co.uk
@@ -27,3 +28,12 @@ enabled_reading_lists: [webmethods, python]
 
 github:
   repo:           https://github.com/poole/hyde
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
