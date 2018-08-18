@@ -1,5 +1,0 @@
-# lambduh
-
-Programming Blog
-
-## TBA
