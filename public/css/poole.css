@@ -53,6 +53,7 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
+  font-weight: bold;
 }
 a strong {
   color: inherit;
