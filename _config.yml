@@ -16,6 +16,7 @@ baseurl:          /
 author:
   name:           'Rachel Sharp'
   url:            https://www.rachsharp.co.uk/author
+  email:	  me@rachsharp.co.uk
 
 excerpt_separator: ""
 
