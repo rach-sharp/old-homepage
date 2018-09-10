@@ -1,6 +1,9 @@
 # Dependencies
 highlighter:      rouge
-plugins:	  [jekyll-paginate, jekyll-gist]
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
 
 # Permalinks
 permalink:        /:title/
