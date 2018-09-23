@@ -70,7 +70,7 @@ and it allows us to:
 now do), knowing that it will be run regardless of whether a terminal is `login` or not
 
 There's an edge case that contradicts this rule that I'll cover later.
-<br><br>
+___
 #### `--interactive`  
 
 _e.g. `bash`, or opening a GUI terminal program_
@@ -79,7 +79,7 @@ Runs the `bashrc` file chain. Doesn't run `profile` file chain as it expects to 
 it from a parent login terminal. `bashrc` file chain is run once per terminal because:
 - There is no guarantee `--login` terminal ran it
 - It could contain code that needs to be run once per terminal creation
-<br><br>
+___
 #### `-c` locally
 
 _e.g. `bash -c 'echo hello world'`_
@@ -88,7 +88,7 @@ Run Bash with a single command rather than interactively. Expects to inherit bot
 `profile` and `bashrc` file chains from a parent terminal. It also has a special environment
 variable, `$BASH_ENV`, which can be set to a file path. Bash will run all commands in that file, before 
 running the command set with `-c`
-<br><br>
+___
 #### `-c` remotely
 
 _e.g. `ssh user@host 'echo hello world'`_
@@ -96,7 +96,7 @@ _e.g. `ssh user@host 'echo hello world'`_
 Although it doesn't actually use the `-c` syntax, `ssh user@host <command>` achieves a similar effect. It won't run the
 remote `profile` file chain, unlike SSH-ing normally does and it _doesn't_ use the `$BASH_ENV` variable,
 but it will still run the remote system’s `bashrc` file chain before running the command.
-<br><br>
+___
 #### `--login`, non-interactively??
 
 _e.g. `ssh user@host < input-file.txt`_
