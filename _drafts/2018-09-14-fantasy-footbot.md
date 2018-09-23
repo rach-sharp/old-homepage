@@ -68,3 +68,8 @@ players or build the team.
 Some of the challenges involved with FF. Lol Man City’s spread of players.
 Quirks of the game, e.g. defenders playing up and midfielders playing down.
 
+- TODO produce some more content about PULP, fantasy football quirks
+- Add examples of the program
+- Other possible continuations
+- Final pass over for quality assurance
+
