@@ -51,7 +51,7 @@ Ubuntu have adopted this feature.
 
 ### The 5 Different Kinds of Terminal
 
-####`--login --interactive`
+#### `--login --interactive`
 
 _e.g. SSH-ing somewhere, or logging into your physical computer_
 
@@ -71,7 +71,7 @@ now do), knowing that it will be run regardless of whether a terminal is `login`
 
 There's an edge case that contradicts this rule that I'll cover later.
 
-####`--interactive`
+#### `--interactive`
 
 _e.g. `bash`, or opening a GUI terminal program_
 
