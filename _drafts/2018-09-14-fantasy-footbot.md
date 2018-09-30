@@ -6,18 +6,20 @@ categories: [python, linear-programming]
 
 Have you bitten off more than you can chew in the office fantasy football league?
 Bench-warmers on your team? A deep seated need to solve linear maths problems?  Well
-never fear - now you can delegate to [Fantasy Footbot](https://github.com/rach-sharp/fantasy-footbot)
+never fear - now you can delegate to [Fantasy Footbot](https://github.com/rach-sharp/fantasy-footbot){:target="_blank"}
 and have it pick your team for you!
 
-Last year I picked a totally random team and got _totally_ crushed in the first week.
+Last year I tried Fantasy Premier League (FPL) for the first time. I picked a totally
+random team and got _totally_ crushed in the first week.
 Fantasy Football seems deceptively simple - some players are better than others at
 scoring points for you, but they also cost more. So the game is finding the players
-when they are undervalued and having the right players on your team at the right time.
+when they are undervalued and having the right players on your team at the right time, right?
+
 The fantasy premier league provides a public API, so I wrote a script to decide my
 team for me - it would look for players who would give a good return of points over
-the season for the amount of money they would cost to have on my team. There are
-two steps - first we need to rank all the players and then it becomes a linear
-programming problem to conform to all the constraints FPL puts on your team. I’ll
+the season for the amount of in-game money they would cost to have on my team. There are
+two steps - first we need to rank all the players and then we need to solve a linear
+programming problem to come up with a solution that conforms with all the constraints FPL puts on your team. I’ll
 cover the details of how I implemented this and then cover some of the factors which
 actually make the problem more complex than Fantasy Footbot can currently handle.
 
@@ -37,14 +39,14 @@ played. The problem with this is that even if the players are scoring well for h
 they play, if they aren’t getting consistent game time, they will be dead weight
 on your fantasy football team.
 
-<Example of ranking the players>
+<Example of ranking the players> TODO
 
 Now you have a list of all the players you want on your team - but the constraints
 of fantasy football come into play:
 
 - No more than 3 players from the same real life team
 - Your squad has to have a standard formation (e.g. 3 attackers, 5 midfielders, 5 defenders, 2 goalkeepers)
-- You only have 100 million to spend - the average player costs about (NUMBER)
+- You only have 100 million to spend - the average player costs about (NUMBER) TODO
   and the best players cost a lot more
 
 Sounds like a linear programming problem - we need to solve a series of linear
