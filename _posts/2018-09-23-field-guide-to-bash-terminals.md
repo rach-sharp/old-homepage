@@ -10,6 +10,8 @@ wanted to know where to stick your config and aliases and this page is written i
 This is an overview of the different kinds of Bash terminal and how they find their config, written in less detail but
 more to the point.
 
+<!–-more-–>
+
 Terminology used:
 
 - `--login`, the option that makes Bash a login shell
@@ -45,7 +47,7 @@ Some general notes:
 - run `/etc/bash.bashrc` _(on most distributions of Linux)_
 - run `~/.bashrc`
 
-`/etc/bash.bashrc1` was added so that the `bashrc` file chain would have its own
+`/etc/bash.bashrc` was added so that the `bashrc` file chain would have its own
 location for system-wide configuration, like `/etc/profile` provides. Debian and
 Ubuntu have adopted this feature.
 
@@ -97,7 +99,7 @@ Although it doesn't actually use the `-c` syntax, `ssh user@host <command>` achi
 remote `profile` file chain, unlike SSH-ing normally does and it _doesn't_ use the `$BASH_ENV` variable,
 but it will still run the remote system’s `bashrc` file chain before running the command.
 
-#### `--login`, non-interactively??
+#### `--login`, non-interactively?? The Edge Case
 
 _e.g. `ssh user@host < input-file.txt`_
 

@@ -13,7 +13,7 @@ permalink:        /:title/
 title:            R#
 host:		  0.0.0.0
 tagline:          'import coffee'
-description:      'opinions & side projects'
+description:      'penchant for python'
 url:              https://www.rachsharp.co.uk
 baseurl:          /
 
@@ -22,7 +22,7 @@ author:
   url:            https://www.rachsharp.co.uk/author
   email:	  me@rachsharp.co.uk
 
-excerpt_separator: ""
+excerpt_separator: <!–-more-–>
 
 paginate:         5
 
