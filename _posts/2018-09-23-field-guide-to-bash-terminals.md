@@ -10,7 +10,7 @@ wanted to know where to stick your config and aliases and this page is written i
 This is an overview of the different kinds of Bash terminal and how they find their config, written in less detail but
 more to the point.
 
-<!–-more-–>
+<!--more-->
 
 Terminology used:
 

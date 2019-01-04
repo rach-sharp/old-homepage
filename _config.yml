@@ -22,7 +22,7 @@ author:
   url:            https://www.rachsharp.co.uk/author
   email:	  me@rachsharp.co.uk
 
-excerpt_separator: <!–-more-–>
+excerpt_separator: <!--more-->
 
 paginate:         5
 

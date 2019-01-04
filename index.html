@@ -21,7 +21,7 @@ title: Home
                   </a>
               </span>
             {% endfor %}
-            {{ post.excerpt }}
+            {{ post.excerpt| remove_first: "&lt;!--more--&gt;" }}
         </div>
     {% endfor %}
 </div>
