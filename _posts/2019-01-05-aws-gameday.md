@@ -9,7 +9,7 @@ categories: [aws]
 Welcome to Unicorn Rentals! [AWS GameDay](https://aws.amazon.com/gameday/){:target="_blank"} 
 invites you to try your hand at managing
 the infrastructure of the biggest player in the Legendary Animal Rental Market (LARM).
-This fictional company that AWS made for people to play as is an excellent parody of all the worst practices you've
+This fictional company that AWS made for people to play as on GameDay is an excellent parody of all the worst practices you've
 heard of and lived through, believing in security through obscurity and firing their engineering team
 every few weeks. Unicorn Rentals needs YOUR HELP to deal with a swathe of mission-critical issues throughout the day.
 
