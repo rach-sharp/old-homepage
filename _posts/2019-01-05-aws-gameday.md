@@ -4,9 +4,9 @@ title: AWS GameDay
 categories: [aws]
 ---
 
-<img src="{{ site.baseurl }}public/images/unicorn_rentals.png" align="right" alt="Unicorn Rentals Logo">
+<img src="{{ site.baseurl }}public/images/unicorn_rentals.png" style="float:right" alt="Unicorn Rentals Logo">
 
-Welcome to Unicorn Rentals! [AWS GameDay](https://aws.amazon.com/gameday/){:target="_blank"} 
+Welcome to Unicorn Rentals! [AWS GameDay](https://aws.amazon.com/gameday/){:target="_blank"}
 invites you to try your hand at managing
 the infrastructure of the biggest player in the Legendary Animal Rental Market (LARM).
 This fictional company that AWS made for people to play as on GameDay is an excellent parody of all the worst practices you've
@@ -95,4 +95,6 @@ is causing a very large backlog in the rental return processing queue.
 
 ### [Full GameDay Let's Play](https://www.youtube.com/watch?v=1ry0mYEdfno){:target="_blank"}
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1ry0mYEdfno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframeVideo">
+<iframe src="https://www.youtube-nocookie.com/embed/1ry0mYEdfno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
