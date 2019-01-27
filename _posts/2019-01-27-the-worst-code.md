@@ -51,7 +51,7 @@ Access a reversed list or string just by using the reversed name of the variable
 builtin to worry about! Note: not at all practical to implement so it just does it in a really
 useless way.
 
-<img src="{{ site.baseurl }}public/images/reversing.png" alt="Missing dict key default behaviour">
+<img src="{{ site.baseurl }}public/images/reversing.png" alt="Reversing a variable name">
 
 
 ### Why? How?
