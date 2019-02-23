@@ -91,6 +91,13 @@ body {
     }
 }
 
+@media (max-height: 850px) {
+
+    .sidebar-me {
+        display: none;
+    }
+}
+
 
 /* Sidebar links */
 
