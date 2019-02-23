@@ -15,7 +15,7 @@
  * Update the foundational and global aspects of the page.
  */
 
-html {
+body {
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -112,7 +112,6 @@ html {
 /* Sidebar nav */
 
 .sidebar-nav {
-    position: fixed;
     bottom: 0;
     margin-bottom: 1rem;
 }

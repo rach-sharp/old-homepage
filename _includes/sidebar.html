@@ -4,7 +4,7 @@
 
         <div class="sidebar-image">
             <a href="{{ site.baseurl }}">
-                <img class="sidebar-me" src="{{site.baseurl}}public/images/me.png">
+                <img class="sidebar-me img-fluid" src="{{site.baseurl}}public/images/me.png">
             </a>
         </div>
 
@@ -36,7 +36,13 @@
                     {% endif %}
                 {% endif %}
             {% endfor %}
-            <a class="sidebar-nav-item" href="{{ site.baseurl }}feed.xml">Feed</a>
         </nav>
+        <div class="py-3">
+            <a href="{{ site.baseurl }}about" class="fa fa-question social-icon mr-2"></a>
+            <a href="https://twitter.com/rachoctothorpe" class="fab fa-twitter social-icon mr-2"></a>
+            <a href="https://github.com/rach-sharp" class="fab fa-github social-icon mr-2"></a>
+            <a href="{{ site.baseurl }}feed.xml" class="fa fa-rss social-icon mr-2"></a>
+            <a href="mailto:me@rachsharp.co.uk" class="fa fa-envelope social-icon"></a>
+        </div>
     </div>
 </div>
