@@ -4,7 +4,7 @@ title: Field Guide to Bash Terminals
 categories: [bash, linux]
 ---
 
-You're setting up your bash profile. You go to the [Bash man page](https://linux.die.net/man/1/bash){:target="_blank"}. Damn... you just
+You're setting up your bash profile. You go to the [Bash man page](https://linux.die.net/man/1/bash){:target="_blank" rel="noopener"}. Damn... you just
 wanted to know where to stick your config and aliases and this page is written in legalese!
 
 This is an overview of the different kinds of Bash terminal and how they find their config, written in less detail but

@@ -6,7 +6,7 @@ categories: [python, linear-programming]
 
 Have you bitten off more than you can chew in the office fantasy football league?
 Bench-warmers on your team? A deep seated need to solve linear maths problems?  Well
-never fear - now you can delegate to [Fantasy Footbot](https://github.com/rach-sharp/fantasy-footbot){:target="_blank"}
+never fear - now you can delegate to [Fantasy Footbot](https://github.com/rach-sharp/fantasy-footbot){:target="_blank" rel="noopener"}
 and have it pick your team for you!
 
 Last year I tried Fantasy Premier League (FPL) for the first time. I picked a totally

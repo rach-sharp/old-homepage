@@ -6,7 +6,7 @@ categories: [python]
 
 A while ago some friends and I brainstormed some dumb functionality we would include in an
 over-engineered esoteric programming language. I’ve had a go at implementing
-some of them as [a Python module (`esoterrible`)](https://www.github.com/rach-sharp/esoterrible){:target="_blank"} and
+some of them as [a Python module (`esoterrible`)](https://www.github.com/rach-sharp/esoterrible){:target="_blank" rel="noopener"} and
 I can confidently say it’s the worst code I’ve ever written. When you import it, it messes
 with your builtins to achieve the following “features”
 
@@ -61,14 +61,14 @@ your face off à la Raiders of the Lost Ark,
 here’s the highlights of how I achieved the above effects:
 
 - Take all the possible 4-5 letter words using the set of letters (T, R, U, E, F, A, L, S),
-take the ones which have a low summed [word-distance](https://en.wikipedia.org/wiki/Levenshtein_distance){:target="_blank"}
+take the ones which have a low summed [word-distance](https://en.wikipedia.org/wiki/Levenshtein_distance){:target="_blank" rel="noopener"}
 to True and False (so they are similar and en-route when transforming one to the other). The
 distance from False indicates how “truthy”
 they should be. Looks like overwriting dict literal syntax is not trivial so it only works with
 `dict()` constructor.
 
 - Inspect the `__main__` module’s file location to identify American/British spellings, using a
-saved list of differences taken from [this site](http://www.tysto.com/uk-us-spelling-list.html){:target="_blank"}
+saved list of differences taken from [this site](http://www.tysto.com/uk-us-spelling-list.html){:target="_blank" rel="noopener"}
 
 - Use the `inspect` module to find the name and source code of the function/module which calls
 the function I override `time.sleep` with.

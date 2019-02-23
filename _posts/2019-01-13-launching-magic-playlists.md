@@ -6,11 +6,11 @@ categories: [python]
 
 <img src="{{ site.baseurl }}public/images/magic_playlists.png" alt="Magic Playlists Site">
 
-[Magic Playlists](https://music.rachsharp.co.uk){:target="_blank"} has been a side project I've been working on sporadically since early 2017 and I'm
+[Magic Playlists](https://music.rachsharp.co.uk){:target="_blank" rel="noopener"} has been a side project I've been working on sporadically since early 2017 and I'm
 overjoyed to finally be able to release it today for anyone to use. It integrates with a Spotify
 account to provide two awesome features: <!--more-->
 
-- Infographics based on listening data, similar to [Spotify Wrapped](https://spotifywrapped.com){:target="_blank"}
+- Infographics based on listening data, similar to [Spotify Wrapped](https://spotifywrapped.com){:target="_blank" rel="noopener"}
 - Playlists that update themselves automatically in the same way as Discover Weekly
 
 Originally I was calling it Spotify++ and all it was doing at the time was running on a Raspberry Pi, managing the automated playlists.
@@ -26,7 +26,7 @@ joiner to the site - the Spotify API only provides the 50 most recent listens, s
 a useful amount of data.
 
 The initial infographic is a special case - it uses the Spotify API Endpoint 
-[User Top Artists and Tracks](https://developer.spotify.com/documentation/web-api/reference/personalization/get-users-top-artists-and-tracks/){:target="_blank"}
+[User Top Artists and Tracks](https://developer.spotify.com/documentation/web-api/reference/personalization/get-users-top-artists-and-tracks/){:target="_blank" rel="noopener"}
 and it needs to be built as soon as someone signs up to the site. In future, infographics can be built for existing
 users as a batch job before release.
 
@@ -35,7 +35,7 @@ Modern Rock, Indie, Electronica, etc. etc. It's the same every year and it gets 
 even be a bias towards more generic genres, because they encompass sub-genres and artists can be tagged
 with multiple genres. Months in Music displays your top three genres each month, relative to how much
 you listened to that genre all year, which gives you a view of which genres were trending at the time.
-It's kind of like [TF-IDF](https://en.wikipedia.org/wiki/Tf–idf){:target="_blank"} but with genres.
+It's kind of like [TF-IDF](https://en.wikipedia.org/wiki/Tf–idf){:target="_blank" rel="noopener"} but with genres.
 
 <figure>
     <img src="{{ site.baseurl }}public/images/months_in_music.png" alt="Months in Music">
