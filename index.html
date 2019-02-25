@@ -22,6 +22,10 @@ title: Home
               </span>
             {% endfor %}
             {{ post.excerpt| remove_first: "&lt;!--more--&gt;" }}
+
+            {% if post.has_more %}
+            <p><a href="{{ post.url }}"> Read More...</a></p>
+            {% endif %}
         </div>
     {% endfor %}
 </div>

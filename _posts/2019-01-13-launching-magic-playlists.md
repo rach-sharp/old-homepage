@@ -2,6 +2,7 @@
 layout: post
 title: Launching Magic Playlists
 categories: [python]
+has_more: true
 ---
 
 <img src="{{ site.baseurl }}public/images/magic_playlists.png" alt="Magic Playlists Site">

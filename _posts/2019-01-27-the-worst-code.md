@@ -1,7 +1,8 @@
 ---
 layout: post
-title: The Worst Code I've Ever Written
+title: The Worst Python Code Ever
 categories: [python]
+has_more: true
 ---
 
 A while ago some friends and I brainstormed some dumb functionality we would include in an

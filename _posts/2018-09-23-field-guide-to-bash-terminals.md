@@ -2,6 +2,7 @@
 layout: post
 title: Field Guide to Bash Terminals
 categories: [bash, linux]
+has_more: true
 ---
 
 You're setting up your bash profile. You go to the [Bash man page](https://linux.die.net/man/1/bash){:target="_blank" rel="noopener"}. Damn... you just

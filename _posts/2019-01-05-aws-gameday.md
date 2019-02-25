@@ -2,6 +2,7 @@
 layout: post
 title: AWS GameDay
 categories: [aws]
+has_more: true
 ---
 
 <img src="{{ site.baseurl }}public/images/unicorn_rentals.png" style="float:right" alt="Unicorn Rentals Logo">
