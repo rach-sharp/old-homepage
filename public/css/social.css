@@ -2,3 +2,8 @@
 .social-icon {
     font-size: 30px;
 }
+
+
+.icon-link {
+    text-decoration: none !important;
+}
