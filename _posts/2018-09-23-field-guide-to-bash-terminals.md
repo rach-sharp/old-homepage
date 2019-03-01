@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Field Guide to Bash Terminals
-categories: [bash, linux]
+categories: [shell, linux]
 has_more: true
 ---
 

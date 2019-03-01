@@ -29,7 +29,7 @@ paginate_path: "/page/:num/"
 
 # Custom vars
 #version:          2.1.0
-enabled_reading_lists: [webmethods, python]
+enabled_reading_lists: [python]
 
 github:
   repo:           https://github.com/poole/hyde
