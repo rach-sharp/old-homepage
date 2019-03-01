@@ -15,11 +15,17 @@ title: Home
                 {{ post.date | date_to_string }}
             </span>
             {% for category in post.categories %}
-              <span class="post-categories">
-                  <a href="{{ site.baseurl }}reading-lists/{{ category }}">
-                      {{ category | capitalize }}
-                  </a>
-              </span>
+                {% if site.enabled_reading_lists contains category %}
+                    <span class="post-categories">
+                        <a href="{{ site.baseurl }}reading-lists/{{ category }}">
+                            {{ category | capitalize }}
+                        </a>
+                    </span>
+                {% else %}
+                    <span class="post-categories">
+                        {{ category | capitalize }}
+                    </span>
+                {% endif %}
             {% endfor %}
             {{ post.excerpt| remove_first: "&lt;!--more--&gt;" }}
 
