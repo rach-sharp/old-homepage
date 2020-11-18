@@ -142,10 +142,13 @@ body {
     font-weight: bold;
 }
 
-.sidebar-social {
-    position: absolute;
-    bottom: 20px;
+@media (min-width: 48em) {
+    .sidebar-social {
+        position: absolute;
+        bottom: 20px;
+    }
 }
+
 
 @media (max-width: 48em) {
     .sidebar-image {
@@ -189,14 +192,14 @@ body {
 @media (min-width: 48em) {
     .content {
         max-width: 38rem;
-        margin-left: 20rem;
+        margin-left: 24rem;
         margin-right: 2rem;
     }
 }
 
 @media (min-width: 64em) {
     .content {
-        margin-left: 22rem;
+        margin-left: 26rem;
         margin-right: 4rem;
     }
 }
