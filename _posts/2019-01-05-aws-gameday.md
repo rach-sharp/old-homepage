@@ -31,7 +31,7 @@ on your account could even be meddled with by AWS. You would see your team losin
 message, leading to sudden bonus rounds where you debugged what you or your teammates created before.
 
 <figure>
-    <img src="{{ site.baseurl }}public/images/game_day_dashboard.png" alt="GameDay Dashboard">
+    <img src="{{ site.baseurl }}public/images/game_day_dashboard.jpg" alt="GameDay Dashboard">
     <figcaption><i>Dashboard with total score and "trend", current rate of score change</i></figcaption>
 </figure>
 

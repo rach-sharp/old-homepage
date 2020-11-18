@@ -1,5 +1,5 @@
 source 'https://rubygems.org' do
-  gem 'jekyll', '~> 3.5'
+  gem 'jekyll'
   gem 'jekyll-feed'
   gem 'jekyll-gist'
   gem 'jekyll-paginate'

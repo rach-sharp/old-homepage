@@ -65,8 +65,8 @@ body {
         top: 0;
         left: 0;
         bottom: 0;
-        width: 18rem;
-        padding: 2rem 1rem;
+        width: 14rem;
+        padding: 1rem 0.5rem;
         text-align: left;
     }
 }
@@ -112,7 +112,7 @@ body {
     color: #fff;
     margin-top: 0;
     font-family: 'Kurale', serif;
-    font-size: 6rem;
+    font-size: 7rem;
 }
 
 
@@ -140,6 +140,11 @@ body {
 
 .sidebar-nav-item.active {
     font-weight: bold;
+}
+
+.sidebar-social {
+    position: absolute;
+    bottom: 20px;
 }
 
 @media (max-width: 48em) {
@@ -321,6 +326,10 @@ body {
 
 .theme-base-09 .content a, .theme-base-09 .related-posts li a:hover {
     color: #d28445;
+}
+
+body {
+    font-size: 0.9rem;
 }
 
 

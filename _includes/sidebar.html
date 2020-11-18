@@ -2,12 +2,6 @@
     <div class="container sidebar-sticky">
         <!-- add class sidebar-sticky to make it stick to bottom -->
 
-        <div class="sidebar-image">
-            <a href="{{ site.baseurl }}">
-                <img class="sidebar-me img-fluid" src="{{site.baseurl}}public/images/me.png">
-            </a>
-        </div>
-
         <div class="sidebar-about">
             <h2>
                 <a href="{{ site.baseurl }}">
@@ -37,7 +31,14 @@
                 {% endif %}
             {% endfor %}
         </nav>
-        <div class="py-3">
+
+        <div class="sidebar-image">
+            <a href="{{ site.baseurl }}">
+                <img class="sidebar-me img-fluid" src="{{site.baseurl}}public/images/snek.png">
+            </a>
+        </div>
+
+        <div class="py-3 sidebar-social">
             <a href="/about/" class="fa fa-question social-icon mr-2"></a>
             <a href="https://twitter.com/rachoctothorpe" class="fab fa-twitter social-icon mr-2"></a>
             <a href="https://github.com/rach-sharp" class="fab fa-github social-icon mr-2"></a>

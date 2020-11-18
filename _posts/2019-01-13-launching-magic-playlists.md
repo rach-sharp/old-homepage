@@ -5,7 +5,7 @@ categories: [python]
 has_more: true
 ---
 
-<img src="{{ site.baseurl }}public/images/magic_playlists.png" alt="Magic Playlists Site">
+<img src="{{ site.baseurl }}public/images/magic_playlists.jpg" alt="Magic Playlists Site">
 
 [Magic Playlists](https://music.rachsharp.co.uk){:target="_blank" rel="noopener"} has been a side project I've been working on sporadically since early 2017 and I'm
 overjoyed to finally be able to release it today for anyone to use. It integrates with a Spotify
